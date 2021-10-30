@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "kwb",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "kwb",
+		"titleLang": {
+			"en": "kwb",
+			"de": "kwb",
+			"ru": "kwb",
+			"pt": "kwb",
+			"nl": "kwb",
+			"fr": "kwb",
+			"it": "kwb",
+			"es": "kwb",
+			"pl": "kwb",
+			"zh-cn": "千瓦"
+		},
+		"desc": {
+			"en": "kwb",
+			"de": "kwb",
+			"ru": "kwb",
+			"pt": "kwb",
+			"nl": "kwb",
+			"fr": "kwb",
+			"it": "kwb",
+			"es": "kwb",
+			"pl": "kwb",
+			"zh-cn": "千瓦"
+		},
+		"authors": [
+			"SonicDaHouseCat <sonicdahousecat@web.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "kwb.svg",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/SonicDaHouseCat/ioBroker.kwb/main/admin/kwb.svg",
+		"readme": "https://github.com/SonicDaHouseCat/ioBroker.kwb/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "climate-control",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
