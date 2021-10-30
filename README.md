@@ -13,7 +13,7 @@
 
 ## kwb adapter for ioBroker
 
-Describe your project here
+Read status of a kwb heating over RS-485.
 
 ## Developer manual
 This section is intended for the developer. It can be deleted later

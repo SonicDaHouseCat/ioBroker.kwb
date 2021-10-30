@@ -1,7 +1,7 @@
 {
   "name": "iobroker.kwb",
   "version": "0.0.1",
-  "description": "kwb",
+  "description": "Read status of a kwb heating over RS-485.",
   "author": {
     "name": "SonicDaHouseCat",
     "email": "sonicdahousecat@web.de"
