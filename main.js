@@ -10,6 +10,7 @@ const utils = require("@iobroker/adapter-core");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
+const SerialPort = require('serialport');
 
 class Kwb extends utils.Adapter {
 
